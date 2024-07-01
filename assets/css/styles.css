@@ -55,7 +55,7 @@ header {
 header h1 {
     color: #F3E542;
     font-size: 2.2em;
-    margin: 0 20px;
+    margin: 0 20px 0 0;
     padding: 0.5rem 0;
     
     
@@ -76,10 +76,11 @@ header a {
 
 main {
 
-    margin-top: 30px;
+    
     flex: 1 0 auto;
     background-color: grey;
-    margin-top: 129px;
+    margin-top: 132px;
+    padding: 0 1rem
 
 
 }
