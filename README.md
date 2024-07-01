@@ -6,7 +6,7 @@ This website provides information about our cooking event services, showcasing o
 ## Features
 - Home page with introduction and featured events
 - Nav bar linking to each page of the website 
--Subsequent pontentia pages:
+- Subsequent pontential pages:
   - About Us page detailing our mission and team
   - Services page with detailed descriptions and pricing
   - Events page with upcoming and past events
