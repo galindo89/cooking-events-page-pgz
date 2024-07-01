@@ -1,0 +1,97 @@
+/*Fonts to use: Marriweather and Open Sans, imported from Google Fonts*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Overriding the default styles from HTML */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Styles*/
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #333;
+}
+
+/*Header Styles*/
+
+header {
+
+    color: #F3E542;
+    background-color: #e28959f0;
+    width: 100%;
+    padding: 0 1rem;
+    text-align: left;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* Just to make sure the header is on top of everything */
+    z-index: 99;
+    box-shadow: 0 2px 2px #828181;
+
+
+}
+
+header h1 {
+    color: #F3E542;
+    font-size: 2.2em;
+    margin: 0 20px;
+    padding: 0.5rem 0;
+    
+    
+}
+
+header a {
+
+
+    text-decoration: none;
+    color: inherit;
+  
+  
+  
+  }
+
+
+/*Main Section Styles*/
+
+main {
+
+    margin-top: 30px;
+    flex: 1 0 auto;
+    background-color: grey;
+    margin-top: 129px;
+
+
+}
+
+footer {
+
+    background-color: #F3E542;
+
+}
+
+
+
+
+
+
