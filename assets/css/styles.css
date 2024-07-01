@@ -20,7 +20,7 @@ body {
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #3a3a3a;;
     line-height: 1.6;
     font-size: 16px;
     display: flex;
@@ -31,7 +31,7 @@ h1,
 h2,
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #333;
+    color:  #3a3a3a;;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -154,8 +154,30 @@ main {
     padding: 0 1rem
 }
 
-footer {
+/*Footer Section Styles*/
 
-    background-color: #F3E542;
+footer {
+    background-color: #E28A59; /* Pastel Terracotta */
+    color: #F3E542; /* Lemon Yellow */
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+footer i {
+
+    color: #3a3a3a;
+    font-size: 1rem;
+    padding: 0 0.5rem;
 
 }
+
+/*Making the font-size of the copyright p smaller*/
+
+footer p:nth-of-type(2) {
+
+
+    font-size:small;
+
+    
+  }
