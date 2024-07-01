@@ -28,6 +28,14 @@ TBD:
 ![Home Page](screenshot-home.png)
 ![Services Page](screenshot-services.png)
 
+## Sources
+- HTML
+- CSS
+- Assets 
+  - Videos:
+  - Images:
+
+
 ## Development Process
 - Version control through Git
 - Regular commits with clear messages
