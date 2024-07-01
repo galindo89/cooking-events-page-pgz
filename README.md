@@ -1,7 +1,7 @@
 # Cooking Event Service Website (DRAFT)
 
 ## Introduction
-This website provides information about our cooking event services, showcasing our offerings, events, and team.
+This website provides information about our cooking event service organizer located in Hamburg Germany. The intended of the website is showcasing the offering and the events.
 
 ## Features
 - Home page with introduction and featured events
