@@ -27,7 +27,9 @@ body {
     flex-direction: column;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Merriweather Sans', sans-serif;
     color: #333;
     text-transform: uppercase;
@@ -56,11 +58,11 @@ header {
 
 header h1 {
     color: #F3E542;
-    font-size: 2.2em;
+    font-size: 1.6em;
     margin: 0 20px 0 0;
     padding: 0.5rem 0;
-    
-    
+
+
 }
 
 header a {
@@ -68,23 +70,88 @@ header a {
 
     text-decoration: none;
     color: inherit;
+
+
+
+}
+
+
+/*This will highlight the active link in the header*/
+
+.active {
+
+    border-bottom: 1px solid #F3E542;
+
+
+}
+
+/*Menu Styles*/
+
+#menu {
+
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 4px;
+
+}
+
+#menu li {
+
+    margin-bottom: 1em;
+
+
+}
+
+/*Nav Styles to set up the mobile menu This has been taken from the example of the Love running project*/
+
+nav {
+    position: absolute;
+    background-color: #e28959f0;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
   
+  
+  }
+  
+  /* Nav-Toggle" */
+  
+  #nav-toggle:checked~nav {
+  
+    display: block;
+  
+  
+  }
+  
+  #nav-toggle {
+  
+    display: none;
+  
+  
+  }
+  
+  .nav-toggle-label {
+  
+    font-size: 1.6rem;
   
   
   }
 
 
+
 /*Main Section Styles*/
+
 
 main {
 
-    
+
     flex: 1 0 auto;
     background-color: white;
-    margin-top: 132px;
+    margin-top: 57px;
     padding: 0 1rem
-
-
 }
 
 footer {
@@ -92,9 +159,3 @@ footer {
     background-color: #F3E542;
 
 }
-
-
-
-
-
-
