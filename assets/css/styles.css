@@ -232,12 +232,28 @@ button.secondary:hover {
     font-weight: bold;
 }
 
+/*Section our Values */
+
+/* Specialization Section Styles */
+.specialization {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.specialization h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3a3a3a;
+}
+
 
 /*Section Our Servies */
 
 .services {
     padding: 2rem 1rem;
-    background-color: #f4f4f4;
+    /* Adding some contrast to the background */
+    background-color: #f4f4f4; 
     text-align: center;
 }
 
@@ -381,5 +397,16 @@ footer p:nth-of-type(2) {
         text-align: wrap;
 
     }
+
+      /* Services Section Styles */
+      .service-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .service-item {
+        width: 30%;
+    }
 }
+
 
