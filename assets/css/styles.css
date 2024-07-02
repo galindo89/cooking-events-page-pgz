@@ -31,7 +31,8 @@ h1,
 h2,
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
-    color:  #3a3a3a;;
+    color: #3a3a3a;
+    ;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -118,32 +119,32 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-  
-  
-  }
-  
-  /* Nav-Toggle" */
-  
-  #nav-toggle:checked~nav {
-  
+
+
+}
+
+/* Nav-Toggle" */
+
+#nav-toggle:checked~nav {
+
     display: block;
-  
-  
-  }
-  
-  #nav-toggle {
-  
+
+
+}
+
+#nav-toggle {
+
     display: none;
-  
-  
-  }
-  
-  .nav-toggle-label {
-  
+
+
+}
+
+.nav-toggle-label {
+
     font-size: 1.6rem;
-  
-  
-  }
+
+
+}
 
 
 
@@ -167,25 +168,30 @@ main {
     text-align: center;
     width: 100%;
     height: 600px;
-    
+
     position: relative;
 }
 
 #hero-cover-text {
-    background-color: #00000099;
+    background-color: #000000a7;
     padding: 1rem;
     border-radius: 10px;
     width: 50%;
     position: absolute;
-    bottom: 30px;
-    right:10px;
+    bottom: 5%;
+    right: 10px;
 }
 
-#hero-text-cover-button{
+#hero-cover-text>p {
+    font-weight: bold;
+
+}
+
+#hero-text-cover-button {
 
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     margin-top: 1rem;
 
 }
@@ -193,10 +199,13 @@ main {
 
 
 
-button.primary, button.secondary {
-    width: 120px; /* Set the desired fixed width */
-    text-align: center; /* Center the text */
-    background-color: #E28A59; 
+button.primary,
+button.secondary {
+    width: 120px;
+    /* Set the desired fixed width */
+    text-align: center;
+    /* Center the text */
+    background-color: #E28A59;
     color: #FFFFFF;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -204,19 +213,23 @@ button.primary, button.secondary {
     margin: 0.5rem;
     border-radius: 5px;
 }
+
 button.primary:hover {
-    background-color: #F3E542; 
+    background-color: #F3E542;
+    font-weight: bold;
 }
 
 button.secondary {
     background-color: #F3E542;
     color: #3a3a3a;
-  
-      
+
+
+
 }
 
 button.secondary:hover {
-    background-color: #7A9E3B; 
+    background-color: #7A9E3B;
+    font-weight: bold;
 }
 
 
@@ -224,11 +237,11 @@ button.secondary:hover {
 /*Footer Section Styles*/
 
 footer {
-    background-color: #E28A59; 
-    color: #F3E542; 
+    background-color: #E28A59;
+    color: #F3E542;
     text-align: center;
     padding: 1rem;
-    
+
 }
 
 footer i {
@@ -244,26 +257,82 @@ footer i {
 footer p:nth-of-type(2) {
 
 
-    font-size:small;
+    font-size: small;
 
-    
-  }
 
- /*Css for screens larger than 768px*/
+}
 
- @media screen and (min-width: 768px){   
+/*Css for screens larger than 768px*/
 
-    @media screen and (min-width: 768px){   
+@media screen and (min-width: 768px) {
 
-        #hero-cover-text {
-            width: 40%;
-            bottom: 0%;
-            /* Center the hero-cover-text to be positioned exactly in the middle of the view port. Trick from Stackoverflow*/
-            left: 0;
-            right:0;
-            margin-left:auto; 
-            margin-right:auto;
-           
-        }
+    /*Header */
+
+    #logo {
+
+    font-size: 180%;
+    line-height: 75px;
+    margin: 0 0.5em;
+
     }
 
+    nav {
+        position: relative;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+        display: block;
+        top: 0;
+        box-shadow: none;
+    }
+
+    #menu {
+
+        display: flex;
+        
+        
+    
+    
+      }
+
+      #menu li {
+
+        padding-left: 1rem
+      }
+
+      .nav-toggle-label {
+
+        display: none;
+    
+      }
+
+    /*Main Section Styles*/
+
+    main{
+
+        margin-top: 91px;
+
+
+    }
+
+
+
+
+    #hero-cover-text {
+        width: 30%;
+        bottom: 5%;
+        /* Center the hero-cover-text to be positioned exactly in the middle of the view port. Trick from Stackoverflow*/
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #hero-cover-text>p {
+
+        font-size: 1.5rem;
+        text-align: wrap;
+
+    }
+}
