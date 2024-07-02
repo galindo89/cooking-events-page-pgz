@@ -406,6 +406,12 @@ footer p:nth-of-type(2) {
 
     .service-item {
         width: 30%;
+        
+
+    }
+
+    .service-item p {
+        margin-top: 2rem;
     }
 }
 
