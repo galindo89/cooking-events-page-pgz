@@ -20,7 +20,7 @@ body {
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
-    color: #3a3a3a;;
+    color: #3a3a3a;
     line-height: 1.6;
     font-size: 16px;
     display: flex;
@@ -193,27 +193,26 @@ main {
 
 
 
-button.primary {
+button.primary, button.secondary {
+    width: 120px; /* Set the desired fixed width */
+    text-align: center; /* Center the text */
     background-color: #E28A59; 
     color: #FFFFFF;
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
     margin: 0.5rem;
+    border-radius: 5px;
 }
-
 button.primary:hover {
     background-color: #F3E542; 
 }
 
 button.secondary {
     background-color: #F3E542;
-    color: #2F4F4F;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    cursor: pointer;
-    margin: 0.5rem;
-   
+    color: #3a3a3a;
+  
+      
 }
 
 button.secondary:hover {
