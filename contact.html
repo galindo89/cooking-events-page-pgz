@@ -50,86 +50,30 @@
 
     <main>
 
-        <!--Hero Section-->
-        <section class="hero" id="home">
-            <h2 class="hidden-heading">Welcome to Our Cooking Events</h2>
-            <div id="hero-cover-text">
+        <!--Form Section-->
 
-                <p>Join us for an unforgettable culinary experience in Hamburg!</p>
+        <section class="contact" id="contact">
 
-                <div id="hero-text-cover-button">
+            <h2>Contact Us</h2>
 
-                    <div id="botton1">
+            <form action="contact.php" method="post">
 
-                        <a href="contact.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                            <button class="primary">Book Now</button>
-                        </a>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-                    </div>
+                <button type="submit">Send</button>
 
-                    <div id="botton2">
-
-                        <a href="#services">
-                            <button class="secondary">Learn More</button>
-                        </a>
+            </form>
 
 
 
-                    </div>
-
-
-
-
-
-                </div>
-
-            </div>
-
-
-        </section>
-
-        <!--Specialization Section-->
-        <section class="specialization" id="specialization">
-            <h2>Our Specialization</h2>
-
-            <p>We specialize in crafting perfect events tailored to your needs, with a passion for Mediterranean and
-                Latin American cuisine. Enjoy the finest culinary experiences from these vibrant cultures.</p>
-
-        </section>
-
-        <!--Our services section-->
-
-        <section class="services" id="services">
-
-            <h2>Our Services</h2>
-
-            <p>Choose from a variety of cooking events that cater to your needs.</p>
-
-            <div class="service-list">
-
-                <div class="service-item">
-                    <h3> <i class="fa-solid fa-kitchen-set"></i> Private Cooking Classes</i></h3>
-                    <p>Learn to cook in a fun and interactive environment.</p>
-                </div>
-
-                <div class="service-item">
-                    <h3><i class="fa-solid fa-user-tie"></i> Corporate Events</h3>
-                    <p>Team-building events that focus on cooking and collaboration.</p>
-                </div>
-
-                <div class="service-item">
-                    <h3><i class="fa-solid fa-champagne-glasses"></i></i> Cooking Parties</h3>
-                    <p>Host a unique and delicious party for your friends and family.</p>
-                </div>
-            </div>
-        </section>
-        
-    </main>
-
-
-
+      
 
     </main>
 
