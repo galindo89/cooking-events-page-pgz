@@ -316,7 +316,7 @@ button.secondary:hover {
 
 .contact{
 
-    background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat center center/cover;
+    background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat left center/cover;
 
     width: 100vw;
    
@@ -344,9 +344,11 @@ form > h3 {
 
     color: #fafafa;
     margin-bottom: 1rem;
-    text-align: justify;
-
+    text-align: center;
+    font-size: medium;
 }
+
+
 
 
 .contact-container {
@@ -415,6 +417,13 @@ form > h3 {
     margin-bottom: 1.5rem;
     color: #fafafa;
     
+}
+
+.form-group .primary {
+
+    margin: 0;
+
+
 }
 
 /* Hide the default calendar icon * and add a custom one. Reason is that the web browser calendar icon is set by default as black */
@@ -552,7 +561,16 @@ footer p:nth-of-type(2) {
 
     .contact form {
         padding: 3rem;
+        margin-left: 6rem;
     }
+
+    .contact{
+
+        background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat center center/cover;
+    
+      
+    }
+    
 }
 
 
