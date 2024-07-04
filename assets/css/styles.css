@@ -373,12 +373,12 @@ form > h3 {
     height: 100%;
     margin-left: 0; /* Align form to the left */
     flex:1;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
     text-align: left;
 }
 
@@ -399,6 +399,7 @@ form > h3 {
     background-color: transparent;
     color: #fafafa;
     font-family: "Open Sans", sans-serif;
+    padding: 0.3rem;
 }
 
 .required {
@@ -562,6 +563,8 @@ footer p:nth-of-type(2) {
     .contact form {
         padding: 3rem;
         margin-left: 6rem;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .contact{
