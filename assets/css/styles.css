@@ -179,7 +179,7 @@ main {
     width: 50%;
     position: absolute;
     bottom: 5%;
-    right: 10px;
+    left: 20px;
 }
 
 #hero-cover-text>p {
@@ -438,6 +438,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
+/*Gallery section */
+
+.photos {
+  
+    line-height: 0;
+  
+  
+  }
+  
+
+
+.photos img {
+
+    width: 100%;
+    line-height: 1em;
+    border: 2px solid white ;
+
+
+      
+
+  
+  
+  
+  }
+
+
+  
+  
+  
+
+
 
 /*Footer Section Styles*/
 
@@ -532,6 +563,7 @@ footer p:nth-of-type(2) {
         right: 0;
         margin-left: auto;
         margin-right: auto;
+        
 
     }
 
@@ -573,13 +605,37 @@ footer p:nth-of-type(2) {
     
       
     }
+
+/*Gallery Section Styles*/
+
+.photos {
+
+    column-count: 2;
+    column-gap: 0;
+
+  }
+
+  .photos img:hover {   
+
+    background-color: #000000a7;
+  
     
+  
+  
+  }
+  
+
+
 }
+    
+
 
 
 /*Css for screens larger than 992px*/
 
 @media screen and (min-width:992px) {
+
+    /*Assuming user has a mouse */
 
     #menu a:hover {
   
@@ -588,6 +644,17 @@ footer p:nth-of-type(2) {
   
     }
 
-}
+/* Gallery Section Styles */
+
+    .photos {
+
+        column-count: 4;
+        column-gap: 0;
+    
+      }
 
 
+     
+
+
+    }
