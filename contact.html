@@ -53,59 +53,63 @@
         <!--Form Section-->
 
         <section class="contact" id="contact">
-            <h2>Contact Us</h2>
-            
+            <h2 class="hidden-heading">Contact Us</h2>
 
-            <form action="submit_form.php" method="POST">
-                <div class="form-group">
 
-                    <label for="name">Name <span class="required">*</span></label>
-                    <input type="text" id="name" name="name" required>
-                </div>
+            <div class="contact-container">
 
-                <div class="form-group">
-                    <label for="lastname">Last Name <span class="required">*</span></label>
-                    <input type="text" id="lastname" name="lastname" required>
-                </div>
+                
+                <form action="submit_form.php" method="POST">
+                    <h3>Plan your cooking event with us</h3>
+                    <div class="form-group">
+                        <label for="name">Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="event-type">Type of Event <span class="required">*</span></label>
-                    <select class="dropdown-input" id="event-type" name="event-type" required>
-                        <option value="">Select an event</option>
-                        <option value="private-class">Private Cooking Class</option>
-                        <option value="corporate-event">Corporate Event</option>
-                        <option value="cooking-party">Cooking Party</option>
-                    </select>
-                </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name <span class="required">*</span></label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="num-people">Number of People <span class="required">*</span></label>
-                    <input type="number" id="num-people" name="num-people" required min="1">
-                </div>
+                    <div class="form-group">
+                        <label for="event-type">Type of Event <span class="required">*</span></label>
+                        <select class="dropdown-input" id="event-type" name="event-type" required>
+                            <option value="">Select an event</option>
+                            <option value="private-class">Private Cooking Class</option>
+                            <option value="corporate-event">Corporate Event</option>
+                            <option value="cooking-party">Cooking Party</option>
+                        </select>
+                    </div>
 
-                <div class="form-group">
-                    <label for="cuisine-interest">Cuisine Interest (Optional)</label>
-                    <select class="dropdown-input" id="cuisine-interest" name="cuisine-interest">
-                        <option value="">Select a cuisine</option>
-                        <option value="mediterranean">Mediterranean</option>
-                        <option value="latin-american">Latin American</option>
-                    </select>
-                </div>
+                    <div class="form-group">
+                        <label for="num-people">Number of People <span class="required">*</span></label>
+                        <input type="number" id="num-people" name="num-people" required min="1">
+                    </div>
 
-                <div class="form-group">
-                    <label for="calendar">Calendar <span class="required">*</span></label>
-                    <input type="date" id="date" name="date" required>
-                </div>
+                    <div class="form-group">
+                        <label for="cuisine-interest">Cuisine Interest (Optional)</label>
+                        <select class="dropdown-input" id="cuisine-interest" name="cuisine-interest">
+                            <option value="">Select a cuisine</option>
+                            <option value="mediterranean">Mediterranean</option>
+                            <option value="latin-american">Latin American</option>
+                        </select>
+                    </div>
 
-                <div class="form-group">
-                    <label for="email">Email Address <span class="required">*</span></label>
-                    <input type="email" id="email" name="email" required>
-                </div>
+                    <div class="form-group">
+                        <label for="calendar">Desired date <span class="required">*</span></label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
 
-                <div class="form-group">
-                    <button type="submit" class="primary">Submit</button>
-                </div>
-            </form>
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="primary">Submit</button>
+                    </div>
+                </form>
+            </div>
         </section>
 
 
