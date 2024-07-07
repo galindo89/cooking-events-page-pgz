@@ -273,7 +273,7 @@ button.secondary:hover {
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px #0000001a;
   text-align: left;
   flex: 1;
 
@@ -356,7 +356,7 @@ form>h3 {
   background-color: #000000a7;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px #0000001a;
   height: 100%;
   margin-left: 0;
   /* Align form to the left */
