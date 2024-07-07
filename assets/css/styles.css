@@ -8,65 +8,65 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /*General Styles*/
 
 
 body {
-    min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
-    color: #3a3a3a;
-    line-height: 1.6;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f4f4f4;
+	color: #3a3a3a;
+	line-height: 1.6;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #3a3a3a;
-    ;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #3a3a3a;
+	;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .hidden-heading {
 
-    display: none;
+	display: none;
 }
 
 /*Header Styles*/
 
 header {
 
-    color: #F3E542;
-    background-color: #e28959f0;
-    width: 100%;
-    padding: 0 1rem;
-    text-align: left;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    /* Just to make sure the header is on top of everything */
-    z-index: 99;
-    box-shadow: 0 2px 2px #828181;
+	color: #F3E542;
+	background-color: #e28959f0;
+	width: 100%;
+	padding: 0 1rem;
+	text-align: left;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	/* Just to make sure the header is on top of everything */
+	z-index: 99;
+	box-shadow: 0 2px 2px #828181;
 
 
 }
 
 header h1 {
-    color: #F3E542;
-    font-size: 1.6em;
-    margin: 0 20px 0 0;
-    padding: 0.5rem 0;
+	color: #F3E542;
+	font-size: 1.6em;
+	margin: 0 20px 0 0;
+	padding: 0.5rem 0;
 
 
 }
@@ -74,9 +74,8 @@ header h1 {
 header a {
 
 
-    text-decoration: none;
-    color: inherit;
-
+	text-decoration: none;
+	color: inherit;
 
 
 }
@@ -86,7 +85,7 @@ header a {
 
 .active {
 
-    border-bottom: 1px solid #F3E542;
+	border-bottom: 1px solid #F3E542;
 
 
 }
@@ -95,15 +94,15 @@ header a {
 
 #menu {
 
-    font-size: 100%;
-    list-style-type: none;
-    letter-spacing: 4px;
+	font-size: 100%;
+	list-style-type: none;
+	letter-spacing: 4px;
 
 }
 
 #menu li {
 
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 
 
 }
@@ -111,14 +110,14 @@ header a {
 /*Nav Styles to set up the mobile menu This has been taken from the example of the Love running project*/
 
 nav {
-    position: absolute;
-    background-color: #e28959f0;
-    width: 100%;
-    padding: 0 1rem;
-    left: 0;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+	position: absolute;
+	background-color: #e28959f0;
+	width: 100%;
+	padding: 0 1rem;
+	left: 0;
+	box-shadow: 0 2px 2px #3a3a3a;
+	display: none;
+	top: 100%;
 
 
 }
@@ -127,25 +126,24 @@ nav {
 
 #nav-toggle:checked~nav {
 
-    display: block;
+	display: block;
 
 
 }
 
 #nav-toggle {
 
-    display: none;
+	display: none;
 
 
 }
 
 .nav-toggle-label {
 
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 
 
 }
-
 
 
 /*Main Section Styles*/
@@ -154,275 +152,265 @@ nav {
 main {
 
 
-    flex: 1 0 auto;
-    background-color: white;
-    margin-top: 57px;
-    padding: 0;
+	flex: 1 0 auto;
+	background-color: white;
+	margin-top: 57px;
+	padding: 0;
 }
 
 .hero {
-    background-image: url("../images/image-hero.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    text-align: center;
-    width: 100%;
-    height: 600px;
+	background-image: url("../images/image-hero.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	height: 600px;
 
-    position: relative;
+	position: relative;
 }
 
 #hero-cover-text {
-    background-color: #000000a7;
-    padding: 1rem;
-    border-radius: 10px;
-    width: 50%;
-    position: absolute;
-    bottom: 5%;
-    left: 20px;
+	background-color: #000000a7;
+	padding: 1rem;
+	border-radius: 10px;
+	width: 50%;
+	position: absolute;
+	bottom: 5%;
+	left: 20px;
 }
 
 #hero-cover-text>p {
-    font-weight: bold;
+	font-weight: bold;
 
 }
 
 #hero-text-cover-button {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1rem;
 
 }
-
-
 
 
 button.primary,
 button.secondary {
-    width: 120px;
-    /* Set the desired fixed width */
-    text-align: center;
-    /* Center the text */
-    background-color: #E28A59;
-    color: #FFFFFF;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    cursor: pointer;
-    margin: 0.5rem;
-    border-radius: 5px;
+	width: 120px;
+	/* Set the desired fixed width */
+	text-align: center;
+	/* Center the text */
+	background-color: #E28A59;
+	color: #FFFFFF;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	cursor: pointer;
+	margin: 0.5rem;
+	border-radius: 5px;
 }
 
 button.primary:hover {
-    background-color: #F3E542;
-    font-weight: bold;
+	background-color: #F3E542;
+	font-weight: bold;
 }
 
 button.secondary {
-    background-color: #F3E542;
-    color: #3a3a3a;
-
+	background-color: #F3E542;
+	color: #3a3a3a;
 
 
 }
 
 button.secondary:hover {
-    background-color: #7A9E3B;
-    font-weight: bold;
+	background-color: #7A9E3B;
+	font-weight: bold;
 }
 
 /*Section our Values */
 
 /* Specialization Section Styles */
 .specialization {
-    padding: 2rem 1rem;
-    background-color: #ffffff;
-    text-align: center;
+	padding: 2rem 1rem;
+	background-color: #ffffff;
+	text-align: center;
 }
 
 .specialization h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #3a3a3a;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #3a3a3a;
 }
 
 
 /*Section Our Servies */
 
 .services {
-    padding: 2rem 1rem;
-    /* Adding some contrast to the background */
-    background-color: #f4f4f4; 
-    text-align: center;
+	padding: 2rem 1rem;
+	/* Adding some contrast to the background */
+	background-color: #f4f4f4;
+	text-align: center;
 }
 
 .services h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #3a3a3a;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #3a3a3a;
 }
 
 .services p {
-    margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 .service-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-   
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
 }
 
 .service-item {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    flex:1;
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	flex: 1;
 
 }
 
 .service-item h3 {
-    font-size: 1.5rem;
-    color: #e28959;
-    margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	color: #e28959;
+	margin-bottom: 0.5rem;
 }
 
 .service-item p {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 
 .primary {
-    width: 100%;
-    text-align: center;
-    background-color: #E28A59;
-    color: #FFFFFF;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    cursor: pointer;
-    margin-top: 1rem;
-    border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	background-color: #E28A59;
+	color: #FFFFFF;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	border-radius: 5px;
 }
 
 .primary:hover {
-    background-color: #F3E542;
-    font-weight: bold;
+	background-color: #F3E542;
+	font-weight: bold;
 }
 
 /* Contact Form */
 
-.contact{
-
-    background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat left center/cover;
-
-    width: 100vw;
-   
-   
-    text-align: center;
-
-
-}
-
-
-
-
-
 .contact {
-    
+
+	background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat left center/cover;
+
+	width: 100vw;
+
+
+	text-align: center;
+
+
 }
+
+
+.contact {}
 
 .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #3a3a3a;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #3a3a3a;
 }
 
-form > h3 {
+form>h3 {
 
-    color: #fafafa;
-    margin-bottom: 1rem;
-    text-align: center;
-    font-size: medium;
+	color: #fafafa;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: medium;
 }
-
-
 
 
 .contact-container {
 
-    display: flex;
-    justify-content: flex-start; 
-    padding: 0 1rem; 
-    max-width: 1200px; 
-    /* margin: 0 auto;  */
-   
-  
-    
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 1rem;
+	max-width: 1200px;
+	/* margin: 0 auto;  */
+
+
 }
 
 
 .contact form {
-    max-width: 500px;
-    background-color: #000000a7;
-    padding: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    margin-left: 0; /* Align form to the left */
-    flex:1;
-    margin-top: 40px;
-    margin-bottom: 40px;
+	max-width: 500px;
+	background-color: #000000a7;
+	padding: 0.5rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	margin-left: 0;
+	/* Align form to the left */
+	flex: 1;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .form-group {
-    margin-bottom: 1.4rem;
-    text-align: left;
+	margin-bottom: 1.4rem;
+	text-align: left;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #fafafa;
-    font-weight: normal;
+	display: block;
+	margin-bottom: 0.5rem;
+	color: #fafafa;
+	font-weight: normal;
 }
 
 .form-group input,
 .form-group select {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    background-color: transparent;
-    color: #fafafa;
-    font-family: "Open Sans", sans-serif;
-    padding: 0.3rem;
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+	background-color: transparent;
+	color: #fafafa;
+	font-family: "Open Sans", sans-serif;
+	padding: 0.3rem;
 }
 
 .required {
-    color:#F3E542;
+	color: #F3E542;
 }
 
 .dropdown-input {
 
-    color: #fafafa;
-  
+	color: #fafafa;
+
 }
 
 .dropdown-input option {
 
-    background-color: #000000a7;
-    margin-bottom: 1.5rem;
-    color: #fafafa;
-    
+	background-color: #000000a7;
+	margin-bottom: 1.5rem;
+	color: #fafafa;
+
 }
 
 .form-group .primary {
 
-    margin: 0;
+	margin: 0;
 
 
 }
@@ -430,61 +418,88 @@ form > h3 {
 /* Hide the default calendar icon * and add a custom one. Reason is that the web browser calendar icon is set by default as black */
 input[type="date"]::-webkit-calendar-picker-indicator {
 
-    
-    z-index: 1;
-    background-image: url("../images/calendar-icon-free-vector.jpg");
-   
+
+	z-index: 1;
+	background-image: url("../images/calendar-icon-free-vector.jpg");
+
 
 }
+
+/* Confirmation form Section */
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.confirmation h2 {
+    font-size: 2.5rem;
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+}
+
+.confirmation p {
+    font-size: 1.2rem;
+    color: #3a3a3a;
+    margin-bottom: 2rem;
+}
+
+.confirmation a.primary {
+    text-decoration: none;
+    background-color: #E28A59;
+    color: #FFFFFF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: auto;
+}
+
 
 
 /*Gallery section */
 
 .photos {
-  
-    line-height: 0;
-  
-  
-  }
-  
+
+	line-height: 0;
+
+
+}
 
 
 .photos img {
 
-    width: 100%;
-    line-height: 1em;
-    border: 2px solid white ;
+	width: 100%;
+	line-height: 1em;
+	border: 2px solid white;
 
 
-      
+}
 
-  
-  
-  
-  }
-
-
-  
-  
-  
 
 
 
 /*Footer Section Styles*/
 
 footer {
-    background-color: #E28A59;
-    color: #F3E542;
-    text-align: center;
-    padding: 1rem;
+	background-color: #E28A59;
+	color: #F3E542;
+	text-align: center;
+	padding: 1rem;
 
 }
 
 footer i {
 
-    color: #3a3a3a;
-    font-size: 1rem;
-    padding: 0 0.5rem;
+	color: #3a3a3a;
+	font-size: 1rem;
+	padding: 0 0.5rem;
 
 }
 
@@ -493,7 +508,7 @@ footer i {
 footer p:nth-of-type(2) {
 
 
-    font-size: small;
+	font-size: small;
 
 
 }
@@ -502,159 +517,160 @@ footer p:nth-of-type(2) {
 
 @media screen and (min-width: 768px) {
 
-    /*Header */
+	/*Header */
 
-    #logo {
+	#logo {
 
-    font-size: 180%;
-    line-height: 75px;
-    margin: 0 0.5em;
+		font-size: 180%;
+		line-height: 75px;
+		margin: 0 0.5em;
 
-    }
+	}
 
-    nav {
-        position: relative;
-        background-color: transparent;
-        width: auto;
-        padding: 0;
-        display: block;
-        top: 0;
-        box-shadow: none;
-        padding-right: 20px;
-    }
+	nav {
+		position: relative;
+		background-color: transparent;
+		width: auto;
+		padding: 0;
+		display: block;
+		top: 0;
+		box-shadow: none;
+		padding-right: 20px;
+	}
 
-    #menu {
+	#menu {
 
+		display: flex;
+
+
+	}
+
+	#menu li {
+
+		padding-left: 1rem
+	}
+
+	.nav-toggle-label {
+
+		display: none;
+
+	}
+
+	/*Main Section Styles*/
+
+	main {
+
+		margin-top: 91px;
+
+
+	}
+
+
+	#hero-cover-text {
+		width: 30%;
+		bottom: 5%;
+		/* Center the hero-cover-text to be positioned exactly in the middle of the view port. Trick from Stackoverflow*/
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+
+
+	}
+
+	#hero-cover-text>p {
+
+		font-size: 1.5rem;
+		text-align: wrap;
+
+	}
+
+	/* Services Section Styles */
+	.service-list {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.service-item {
+		width: 30%;
+
+
+	}
+
+	.service-item p {
+		margin-top: 2rem;
+	}
+
+	/*Contact Section Styles*/
+
+    .contact {
+
+		background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat center center/cover;
         display: flex;
-        
-        
+		justify-content: center;
+		align-items: center;
+		
+
+	}
     
+    /*Center the form in the contact section */
+
+    /
+	.contact form {
+		padding: 3rem;
+		width: 60%; 
+		border-radius: 10px;
+	}
+
+    /*Confirmation Section Styles*/
     
-      }
+.confirmation a.primary:hover {
+    background-color: #F3E542;
+    font-weight: bold;
+}
 
-      #menu li {
+	/*Gallery Section Styles*/
 
-        padding-left: 1rem
-      }
+	.photos {
 
-      .nav-toggle-label {
+		column-count: 2;
+		column-gap: 0;
 
-        display: none;
-    
-      }
+	}
 
-    /*Main Section Styles*/
+	.photos img:hover {
 
-    main{
-
-        margin-top: 91px;
-
-
-    }
+		background-color: #000000a7;
 
 
-
-
-    #hero-cover-text {
-        width: 30%;
-        bottom: 5%;
-        /* Center the hero-cover-text to be positioned exactly in the middle of the view port. Trick from Stackoverflow*/
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-        
-
-    }
-
-    #hero-cover-text>p {
-
-        font-size: 1.5rem;
-        text-align: wrap;
-
-    }
-
-      /* Services Section Styles */
-      .service-list {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .service-item {
-        width: 30%;
-        
-
-    }
-
-    .service-item p {
-        margin-top: 2rem;
-    }
-
-    /*Contact Section Styles*/
-
-    .contact form {
-        padding: 3rem;
-        margin-left: 6rem;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .contact{
-
-        background: url("../images/Gluexgefuehl-catering-berlin_a76171fc-d332-44ed-adb1-c1ee401600ac.webp") no-repeat center center/cover;
-    
-      
-    }
-
-/*Gallery Section Styles*/
-
-.photos {
-
-    column-count: 2;
-    column-gap: 0;
-
-  }
-
-  .photos img:hover {   
-
-    background-color: #000000a7;
-  
-    
-  
-  
-  }
-  
+	}
 
 
 }
-    
-
 
 
 /*Css for screens larger than 992px*/
 
 @media screen and (min-width:992px) {
 
-    /*Assuming user has a mouse */
+	/*Assuming user has a mouse */
 
-    #menu a:hover {
-  
-      border-bottom: 1px solid #3a3a3a;
- 
-  
-    }
+	#menu a:hover {
 
-/* Gallery Section Styles */
-
-    .photos {
-
-        column-count: 4;
-        column-gap: 0;
-    
-      }
+		border-bottom: 1px solid #3a3a3a;
 
 
-     
+	}
+
+	/* Gallery Section Styles */
+
+	.photos {
+
+		column-count: 4;
+		column-gap: 0;
+
+	}
 
 
-    }
+}
+
