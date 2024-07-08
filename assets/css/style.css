@@ -159,7 +159,7 @@ main {
 }
 
 .hero {
-  background-image: url("../images/image-hero.jpg"); 
+  background-image: url("../images/image-hero-min.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
