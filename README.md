@@ -94,7 +94,7 @@ The website is designed to provide visitors with a comprehensive and engaging ex
 
 The home page includes an introduction of the services and the specialization. It is designed to provide essential information at a glance.
 
-![Home Page](documentation/features/home-page.webp)
+![Home Page](readme-docs/features/home-page.JPG)
 
 #### Gallery Page
 
@@ -244,8 +244,7 @@ Below are the results:
 - For desktop:
   - ![Desktop Lighthouse](readme-docs/testing/lighthouse-test-desktop.JPG)
 
-### Accessibility Testing
-(Add details about accessibility testing here)
+
 
 ### Bugs Documentation
 (Add details about bugs documentation here)
@@ -261,7 +260,7 @@ Below are the results:
 (Add information about code used here)
 
 ### Content
-(Add information about content here)
+
 
 ### Media
 (Add information about media here)
