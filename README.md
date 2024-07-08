@@ -106,13 +106,13 @@ The gallery page showcases images of past events to give visitors an idea of wha
 
 The contact page includes a form for inquiries and event bookings, allowing users to easily reach out to the organizer.
 
-![Contact Page](documentation/features/contact-page.webp)
+![Contact Page](readme-docs/features/contact-page.JPG)
 
 #### Confirmation Page
 
 The confirmation page displays a thank you message and confirmation details after a user submits the contact form.
 
-![Confirmation Page](documentation/features/confirmation-page.webp)
+![Confirmation Page](readme-docs/features/confirmation-page.JPG)
 
 #### Future Implementations
 
