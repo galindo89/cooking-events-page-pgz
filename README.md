@@ -1,55 +1,55 @@
 # Cooking Event Service Website
 
-![Cooking Events](readme-docs\multi-device-website-mockup.JPG)
+![Cooking Events](readme-docs/features/multi-device-website-mockup.JPG)
 
 Visit the deployed site: [HH Cooking Events](https://galindo89.github.io/cooking-events-page-pgz/)
 
-A website for showcasing and organizing cooking events in Hamburg, Germany.
+A website that presents an cooking event service provided with passion for mediterranean and latin american food that organizes private cooking events in Hamburg, Germany
 
 
 ## CONTENTS
 
-- [Introduction](#introduction)
-  - [Purpose of the project](#purpose-of-the-project)
-- [User Experience](#user-experience-ux)
-  - [User Stories](#user-stories)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-  - [Wireframes](#wireframes)
-  - [Features](#features)
-    - [Home Page](#home-page)
-    - [Gallery Page](#gallery-page)
-    - [Contact Page](#contact-page)
-    - [Confirmation Page](#confirmation-page)
-    - [Future Implementations](#future-implementations)
-  - [Accessibility](#accessibility)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Deployment & Local Development](#deployment--local-development)
-  - [Deployment](#deployment)
-  - [Local Development](#local-development)
-    - [How to Fork](#how-to-fork)
-    - [How to Clone](#how-to-clone)
-- [Testing](#testing)
-  - [Feature Testing](#feature-testing)
-  - [Browser Compatibility](#browser-compatibility)
-  - [Responsiveness Testing](#responsiveness-testing)
-  - [Code Validation](#code-validation)
-    -[HTML](#HTML)
-    -[CSS](#CSS)
-  - [Lighthouse Testing](#lighthouse-testing)
-  - [Accessibility Testing](#accessibility-testing)
-  - [Bugs Documentation](#bugs-documentation)
-  - [Solved Bugs](#solved-bugs)
-  - [Known Bugs](#known-bugs)
-- [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+- [Cooking Event Service Website](#cooking-event-service-website)
+  - [CONTENTS](#contents)
+  - [Introduction](#introduction)
+    - [Purpose of the project](#purpose-of-the-project)
+  - [User Experience (UX)](#user-experience-ux)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+    - [Features](#features)
+      - [Home Page](#home-page)
+      - [Gallery Page](#gallery-page)
+      - [Contact Page](#contact-page)
+      - [Confirmation Page](#confirmation-page)
+      - [Future Implementations](#future-implementations)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Deployment \& Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
+  - [Testing](#testing)
+    - [Feature Testing](#feature-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Responsiveness Testing](#responsiveness-testing)
+    - [Code Validation](#code-validation)
+      - [HTML](#html)
+      - [CSS](#css)
+    - [Lighthouse Testing](#lighthouse-testing)
+    - [Bugs Documentation](#bugs-documentation)
+    - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
+  - [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Media](#media)
+    - [Acknowledgments](#acknowledgments)
+    - [Contact](#contact)
 
 ## Introduction
 ### Purpose of the project
@@ -85,7 +85,12 @@ For the typography, two primary fonts to enhance readability and complement the 
 Images were chosen to showcase the vibrant and interactive nature of our cooking events, including photos of past events and culinary creations.
 
 ### Wireframes
-(Add wireframes here)
+During the design phase, wireframes were used to sketch the potential structure of the web page, especially for the mobile and desktop versions. The wireframes were hand-sketched. The following pictures show the sketches produced:
+
+
+![Home Page Desktop](readme-docs/wireframes/wireframe-home-desktop.jpg)
+![Home Page Mobile](readme-docs/wireframes/wireframe-home-mobile.jpg)
+![Contact Page](readme-docs/wireframes/wireframe-contact-form-mobile.jpg)
 
 ### Features
 The website is designed to provide visitors with a comprehensive and engaging experience, showcasing what the company offers and its specialization in Mediterranean and Latin American food events. Each page serves a specific purpose, ensuring that users can easily find the information they need and interact with the site effectively.
@@ -131,7 +136,6 @@ Future features may include:
 
 ### Frameworks, Libraries & Programs Used
 
-- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 - [Git](https://git-scm.com/) - For version control.
 - [GitHub](https://github.com/) - To save and store the files for the website.
 - [GitPod](https://gitpod.io/) - IDE used to create the site.
@@ -177,7 +181,41 @@ To clone the repository:
 
 ## Testing
 ### Feature Testing
-(Add details about feature testing here)
+
+
+In the feature testing phase, we conducted a series of tests to ensure that all key functionalities of the website are working as intended. We tested various components across different pages, including the navigation bar, footer, buttons, sections, and forms. Each feature was tested in different scenarios to verify their behavior and responsiveness.
+
+All test cases were conducted using three different web browsers:
+- Google Chrome
+- Firefox
+- Microsoft Edge
+
+The devices used for the testing were:
+- Google Pixel 7
+- Microsoft Surface Notebook 2
+- 1920 x 1080 desktop monitor
+
+Below is a summary of the test cases and their results.
+
+
+| Feature                | Page         | Scenario                                                                                                       | Steps                                                                                                       | Expected result                                                                                                                                                                                                                                                                                                | Result |
+| ---------------------- | ------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Navigation bar         | All          | User clicks on Logo section                                                                                    | Go to any of the pages and click on the Cooking Event logo                                                  | User is redirected to the home page in the same tab                                                                                                                                                                                                                                                            | Passed |
+| Navigation bar         | All          | User clicks on any of the links available                                                                      | Go to any of the pages. On the top right click on any of the available links                                | User is redirected to the corresponding page in the same tab. When in the page the navigation bar highlights the page where you currently are                                                                                                                                                                  | Passed |
+| Navigation bar         | All          | User is accessing the page with a device with a screen smaller than 768px. User goes to the navigation section | Go to the navigation section.                                                                               | Navigation links will be hidden and instead the UI will present a burger button. When clicking on it the UI will present the list of pages (Home, Gallery, Contact)                                                                                                                                            | Passed |
+| Footer                 | All          | User clicks on any of the social media links available                                                         | Go to the footer section of any of the pages. Click on any of the social media links                        | User will be directed to the corresponding social media site. A new tab is opened.                                                                                                                                                                                                                             | Passed |
+| Home page              | Home page    | User enters the home page                                                                                      | Enter the URL of the page or click on any of the links that directs to the home page                        | Home page loads. The hero section is loaded and a message including 2 buttons is displayed                                                                                                                                                                                                                     | Passed |
+| Learn More Button      | Home page    | User is in the home page and clicks on the "Learn More" button                                                 | Go to the home page, in the hero image section, 2 buttons will be displayed. Click on the Learn More button | The user will be directed to the specialization and services sections that are also part of the home page                                                                                                                                                                                                      | Passed |
+| Contact Us Button      | Home page    | User is in the home page and clicks on the "Contact Us" button                                                 | Go to the home page, in the hero image section, 2 buttons will be displayed. Click on "Contact Us" button   | The user will be directed to the contact page. There the user will be able to fill in a form to submit a request for reservation or for interest into a specific event                                                                                                                                         | Passed |
+| Specialization section | Home page    | User accesses the home page                                                                                    | Go to the home page. Scroll down below the hero section                                                     | User is presented with a description of what is the specialty of the service provider                                                                                                                                                                                                                          | Passed |
+| Services section       | Home page    | User accesses the home page                                                                                    | Go to the home page. Scroll down below the specialization section                                           | User is presented with a description of the different types of cooking events offered                                                                                                                                                                                                                          | Passed |
+| Gallery with pictures  | Gallery      | User accesses the gallery page                                                                                 | Click on any link leading to the gallery section                                                            | User will be displayed with a different number of images. For screens with a width bigger than 1200px, the images will be displayed in four columns. For screens between 768px and 1200px, the images will be displayed in two columns. For any screen below 768px, the images will be displayed in one column | Passed |
+| Submit Form            | Contact      | User accesses the contact page                                                                                 | Click on any link leading to the contact page                                                               | User is directed to the contact page in the same tab. Page loads a form with several fields to fill in                                                                                                                                                                                                         | Passed |
+| Submit Form            | Contact      | Users fill in the contact page                                                                                 | Go to the contact page. Start filling in the form                                                           | User is able to fill in the form. The UI displays clearly which fields are mandatory                                                                                                                                                                                                                           | Passed |
+| Submit Form            | Contact      | Users click on submit form. Form has still required fields empty                                               | Go to the contact page. Click on submit form button                                                         | User is notified by the UI that the form is still incomplete. User cannot submit the form                                                                                                                                                                                                                      | Passed |
+| Submit Form            | Contact      | Users click on submit form. Form has all mandatory fields properly filled in                                   | Go to the contact page. Fill in all mandatory fields from the form                                          | User is directed to a confirmation page in the same tab. The confirmation page confirms the user that the request has been successfully sent. It presents also besides the navigation bar a home button for the user to go back to the home page                                                               | Passed |
+| Confirmation message   | Confirmation | User clicks on the home button                                                                                 | In the confirmation page, below the confirmation message, click on the home button                          | User is directed to the home page in the same tab                                                                                                                                                                                                                                                              | Passed |
+
 
 ### Browser Compatibility
 The project was tested in Chrome, Firefox, and Edge. No issues were found.
@@ -185,7 +223,7 @@ The project was tested in Chrome, Firefox, and Edge. No issues were found.
 The results of the testing are presented in the following table:
 
 | Browser tested | Intended appearance | Intended responsiveness | Comment         |
-|----------------|---------------------|-------------------------|-----------------|
+| -------------- | ------------------- | ----------------------- | --------------- |
 | Chrome         | Good                | Good                    | No issues found |
 | Firefox        | Good                | Good                    | No issues found |
 | Edge           | Good                | Good                    | No issues found |
@@ -197,12 +235,12 @@ The project was tested directly on 3 different screens:
 - Notebook: Microsoft Surface Notebook 2
 - Desktop monitor: 1920 x 1080 resolution
 
-| Device tested                      | Site responsiveness <= 767 px                                                         | Site responsiveness 768px <= x <= 991px                                                     | Site responsiveness x >= 992px                                                                                     |
-|------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Google Pixel 7                     | Good. All pages rendering content as expected and behaving as implemented              | N/A                                                                                         | N/A                                                                                                                |
-| iPad mini (over Chrome's developer console) | N/A                                                                                   | Good. All pages rendering content as expected and behaving as implemented                    | N/A                                                                                                                |
-| 1504 x 1003 Microsoft Surface Notebook screen | N/A                                                                                   | N/A                                                                                         | Good. All pages rendering content as expected and behaving as implemented                                            |
-| 1920 x 1080 desktop monitor        | N/A                                                                                   | N/A                                                                                         | Good. All pages rendering content as expected and behaving as implemented                                            |
+| Device tested                                 | Site responsiveness <= 767 px                                             | Site responsiveness 768px <= x <= 991px                                   | Site responsiveness x >= 992px                                            |
+| --------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Google Pixel 7                                | Good. All pages rendering content as expected and behaving as implemented | N/A                                                                       | N/A                                                                       |
+| iPad mini (over Chrome's developer console)   | N/A                                                                       | Good. All pages rendering content as expected and behaving as implemented | N/A                                                                       |
+| 1504 x 1003 Microsoft Surface Notebook screen | N/A                                                                       | N/A                                                                       | Good. All pages rendering content as expected and behaving as implemented |
+| 1920 x 1080 desktop monitor                   | N/A                                                                       | N/A                                                                       | Good. All pages rendering content as expected and behaving as implemented |
 
 
 ### Code Validation
@@ -212,19 +250,19 @@ HTML code validation was conducted using the [W3C Markup Validation Service](htt
 
 
 
-| Page Tested         | Errors                                                                                                                                           | Solutions applied?                                                                                                                      | Screenshot of clear validator output                                           |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| index.html          | "Error: The element button must not appear as a descendant of the a element.<br>Error: Stray end tag i.<br>Error: Stray end tag i.<br>Error: Stray end tag main." | "Remove the `<button>` elements from inside `<a>` tags. Replace them with styled `<a>` tags or modify the structure to avoid nesting `<button>` inside `<a>`. <br><br>Fix the stray end tag `<i>` and `<main>` issues by removing the extra closing tags." | ![index.html validation result](readme-docs/testing/code-validation-index-html-after-fix.JPG) |
-| gallery.html        | No error                                                                                                                                         | N/A                                                                                                                                     | ![gallery.html validation result](readme-docs/testing/code-validation-gallery.JPG) |
-| contact.html        | Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.                                           | Update the "for" attribute of the label   element                                                                                           | ![contact.html validation result](readme-docs/testing/code-validation-contact-after-fix.JPG) |
-| confirmation.html   | No error  | N/A | ![confirmation.html validation result](readme-docs/testing/code-validation-confirmation.JPG) |
+| Page Tested       | Errors                                                                                                                                                            | Solutions applied?                                                                                                                                                                                                                                         | Screenshot of clear validator output                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| index.html        | "Error: The element button must not appear as a descendant of the a element.<br>Error: Stray end tag i.<br>Error: Stray end tag i.<br>Error: Stray end tag main." | "Remove the `<button>` elements from inside `<a>` tags. Replace them with styled `<a>` tags or modify the structure to avoid nesting `<button>` inside `<a>`. <br><br>Fix the stray end tag `<i>` and `<main>` issues by removing the extra closing tags." | ![index.html validation result](readme-docs/testing/code-validation-index-html-after-fix.JPG) |
+| gallery.html      | No error                                                                                                                                                          | N/A                                                                                                                                                                                                                                                        | ![gallery.html validation result](readme-docs/testing/code-validation-gallery.JPG)            |
+| contact.html      | Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.                                                           | Update the "for" attribute of the label   element                                                                                                                                                                                                          | ![contact.html validation result](readme-docs/testing/code-validation-contact-after-fix.JPG)  |
+| confirmation.html | No error                                                                                                                                                          | N/A                                                                                                                                                                                                                                                        | ![confirmation.html validation result](readme-docs/testing/code-validation-confirmation.JPG)  |
 
 #### CSS
 CSS code was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator).
 
 
-| File      | Errors                                                                                                                    | Solutions applied?                                                                                      | Screenshot of clear validator output                                    |
-|-----------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| File      | Errors                                                                                                                                                                                                       | Solutions applied?                                                                              | Screenshot of clear validator output                                              |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | style.css | "Value Error: text-align wrap is not a text-align value: wrap<br>Parse Error /*Center the form in the contact section */ / .contact form { padding: 3rem; width: 60%; border-radius: 10px; }<br>Parse Error" | Removing unnecessary "text-align variable" from selector<br>Removing unnecessary '/' character" | ![style.css validation result](readme-docs/testing/code-validation-style-css.JPG) |
 
 
@@ -247,138 +285,42 @@ Below are the results:
 
 
 ### Bugs Documentation
-(Add details about bugs documentation here)
+
+During the implementation and testing phase of this project, there where several bugs identified and solved. The table  below presets the bugs identified. Consider please that during the implementation there were definitely more bugs, but they grudally solved while implementing and poloshing the page. Therefore they may not be listed here. 
+
+| Bug                                                                                                               | How we solved it                                                                                                                                                                                                           | Status             |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Original hero image of the home page was distorted. The faces of some of the people in the picture were stretched | We replaced the hero image with another one                                                                                                                                                                                | Fixed and deployed |
+| Picture not displaying in the gallery section                                                                     | The picture got renamed and mistakenly deleted during the updates to the names of the folders to comply with naming conventions. We updated the corresponding image element in the gallery section and uploaded a new file | Fixed and deployed |
+| Calendar icon in the calendar field of the Contact form not visible                                               | The icon's color was not contrasting with the form's background. This was due to how the web browser was rendering that icon. To solve the issue, it was necessary to hide the default icon and set up a new one.          | Fixed and deployed |
+
+
 
 ### Solved Bugs
-(Add details about solved bugs here)
+See above.
 
 ### Known Bugs
-(Add details about known bugs here)
+As of now, after the testing conducted on this page, there are no known bugs. It is important to mention that during the Lighthouse testing, the performance of the web page for mobile provided several insights on specific sections of the web page that need to be improved.
 
 ## Credits
 ### Code Used
-(Add information about code used here)
+This web page was generated by the authr, using the skills and knowledge gathered during the modules of HTML and CSS. It is important to mention that although the majority of the code was produced by him, he guided himself specially the Love-Running project. In particular, the following two sections provided good examples to Mr. Galindo Zapata:
 
-### Content
+1. Gallery section
+2. Hiding the nav bar for different screen sizes and creating a "burger" navigation menu.
+
+Furthermore, there was an implementation to solve one of the bugs related to the calendar icon in the contact form. You can find a link to the code solution [here](https://stackoverflow.com/questions/76844615/how-to-style-the-calendar-icon-in-a-date-input).
 
 
 ### Media
-(Add information about media here)
+Media used was downloaded from iStock and Google.
 
 ### Acknowledgments
-(Add acknowledgments here)
 
+1. I want to thank my tutor for all the guidance given during the project.
+2. I also want to thank the community from Code Institute. Their timely questions, comments in the Slack channels, and willingness to help each other made this project less difficult.
+3. I am grateful to the Code Institute team for the provided material and examples, which guided us on how to proceed with this project.
+4. I would like to acknowledge and thank the YouTube channel [Slaying The Dragon](https://www.youtube.com/@slayingthedragon) for their excellent tutorials, especially for CSS, which were of great help.
 
-
-
-
-
-
-## Purpose of the Project
-The purpose of this project is to create a website for a cooking event service organizer located in Hamburg, Germany. The website is designed to showcase the services and events offered, providing visitors with detailed information and easy navigation.
-
-The main objective here is to present a simple website that presents the services provided and the value proposition of the serivces. Furthermore it presents also a gallery that displays previous events. It also provides the suer with a contact for for them to make request for reservations. 
-
-## User Stories
-- As a visitor, I want to learn about the cooking event services offered, so that I can decide if I book one event. 
-- As a potential client, I want to understand what types of cooking events are available, so that I can find an event that interests me.
-- As a user, I want to contact the organizer through the website, so that I can ask questions or make a booking.
-- As a visitor, I want to see images and descriptions of past events, so that I can get an idea of what to expect.
-
-## Features
-
-#### Home Page
-
-The home page includes an introduction and featured events to engage visitors and provide essential information at a glance.
-
-![Home Page](documentation/features/home-page.webp)
-
-#### Gallery Page
-
-The gallery page showcases images of past events to give visitors an idea of what to expect.
-
-![Gallery Page](documentation/features/gallery-page.webp)
-
-#### Contact Page
-
-The contact page includes a form for inquiries and event bookings, allowing users to easily reach out to the organizer.
-
-![Contact Page](documentation/features/contact-page.webp)
-
-#### Confirmation Page
-
-The confirmation page displays a thank you message and confirmation details after a user submits the contact form.
-
-![Confirmation Page](documentation/features/confirmation-page.webp)
-
-- **Footer:** Social media links and copyright information.
-
-## Pages
-- **index.html:** Home page with introduction and featured events.
-- **gallery.html:** Gallery page showcasing images of past events.
-- **contact.html:** Contact page with a form for inquiries and event bookings.
-- **confirmation.html:** Confirmation page to display after form submission (assuming this is included based on the form action).
-
-## Future Features
-- User login and registration for event booking.
-- A service page that provides more details of the different services including calls to action and pricings.  
-- Calendar view for availabilty
-- Improving the gallery by allowing the user to get a description of the images when hovering over or clicking on them
-- Blog section for cooking tips and event highlights.
-
-## Typography and Color Scheme
-- **Typography:** 
-  - Primary Font: 'Open Sans', sans-serif
-  - Secondary Font: 'Merriweather Sans', sans-serif
-- **Color Scheme:**
-  - Primary Color: #E28A59 (Background, Buttons)
-  - Secondary Color: #F3E542 (Text, Highlights)
-  - Accent Color: #7A9E3B (Hover States)
-  - Background Color: #F4F4F4 (Body Background)
-  - Text Color: #3A3A3A
-
-## Wireframes
-- Home Page: ![Home Page Wireframe](wireframe-home.png)
-- Services Page: ![Services Page Wireframe](wireframe-services.png)
-- Events Page: ![Events Page Wireframe](wireframe-events.png)
-
-## Technology
-- **HTML5**
-- **CSS3**
-- **Git & GitHub**
-
-## Testing
-### 8.1 Code Validation
-- HTML: Tested using W3C Markup Validation Service [https://validator.w3.org/]
-- CSS: Tested using W3C CSS Validation Service [https://jigsaw.w3.org/css-validator/]
-
-### 8.2 Test Cases (User Story Based with Screenshots)
-- **User Story 1:** Viewing service details - ![Service Details](screenshot-service-details.png)
-- **User Story 2:** Contacting the organizer - ![Contact Form](screenshot-contact-form.png)
-
-### 8.3 Fixed Bugs
-- Fixed navigation bar alignment issues.
-- Fixed date picker incon issue. 
-- Resolved form validation errors on the contact page.
-
-### 8.4 Supported Screens and Browsers
-- **Screens:** Desktop, Tablet, Mobile
-- **Browsers:** Chrome, Firefox, Safari, Edge
-
-## Deployment
-### 9.1 Via Gitpod
-- Set up a Gitpod workspace for development.
-- Regularly pushed commits to the GitHub repository.
-
-### 9.2 Via GitHub Pages
-- Deployed the website using GitHub Pages.
-- To view the site, visit [GitHub Pages Deployment URL - TBD].
-
-## Credits
-- **Development:** Pablo Galindo Zapata
-- **Images and Videos:**
-  - Source of images: [source if applicable]
-  - Source of videos: [source if applicable]
-- **CSS and HTML Help:**
-  - Stack Overflow
-- **Contact:** For more information, please contact us at [pablo.galindozapata@gmail.com].
+### Contact
+For more information about the page,  please contact  [pablo.galindozapata@gmail.com].
