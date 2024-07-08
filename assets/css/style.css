@@ -308,7 +308,7 @@ a.secondary:hover {
 
 .contact {
 
-  background: url("../images/cooking-event-at-night.webp") no-repeat left center/cover;
+  background: url("../images/contact-page-background.jpg") no-repeat left center/cover;
 
   width: 100vw;
 
@@ -317,9 +317,6 @@ a.secondary:hover {
 
 
 }
-
-
-.contact {}
 
 .contact h2 {
   font-size: 2rem;
@@ -599,9 +596,9 @@ footer p:nth-of-type(2) {
 
   .contact {
 
-    background: url("../images/cooking-event-at-night.webp") no-repeat center center/cover;
+   
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
 
 

@@ -225,13 +225,24 @@ CSS code was validated using the [W3C CSS Validation Service](https://jigsaw.w3.
 
 | File      | Errors                                                                                                                    | Solutions applied?                                                                                      | Screenshot of clear validator output                                    |
 |-----------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| style.css | "Value Error: text-align wrap is not a text-align value: wrap<br>Parse Error /*Center the form in the contact section */ / .contact form { padding: 3rem; width: 60%; border-radius: 10px; }<br>Parse Error }" | Removing unnecessary "text-align variable" from selector<br>Removing unnecessary '/' character" | ![style.css validation result](readme-docs/testing/code-validation-style-css.JPG) |
+| style.css | "Value Error: text-align wrap is not a text-align value: wrap<br>Parse Error /*Center the form in the contact section */ / .contact form { padding: 3rem; width: 60%; border-radius: 10px; }<br>Parse Error" | Removing unnecessary "text-align variable" from selector<br>Removing unnecessary '/' character" | ![style.css validation result](readme-docs/testing/code-validation-style-css.JPG) |
 
 
 
 
 ### Lighthouse Testing
-(Add details about Lighthouse testing here)
+
+Lighthouse testing was executed using the plugin from Chrome's developer tools. The tests were conducted for both mobile and desktop versions of the site. The test analyzed performance, accessibility, SEO, and best practices. 
+
+The results show that for both mobile and desktop, accessibility, SEO, and best practices were excellent. However, there is room for improvement on the performance side for mobile. Although it was possible to increase the performance results for mobile by optimizing the hero image, additional steps are necessary.
+
+Below are the results:
+- For mobile before optimizing the hero image:
+  - ![Mobile Lighthouse Results Befor Fix](readme-docs/testing/lighthouse-test-mobile-before.JPG)
+- For mobile after optimizing the hero image:
+  - ![!Mobile Lighthouse Results After Fix](readme-docs/testing/lighthouse-test-mobile-after-fix.JPG)
+- For desktop:
+  - ![Desktop Lighthouse](readme-docs/testing/lighthouse-test-desktop.JPG)
 
 ### Accessibility Testing
 (Add details about accessibility testing here)
