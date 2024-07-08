@@ -308,15 +308,19 @@ a.secondary:hover {
 
 .contact {
 
-  background: url("../images/contact-page-background.jpg") no-repeat left center/cover;
+  background: url("../images/contact-page-background.jpg") no-repeat center center/cover;
 
   width: 100vw;
+  height: 100vh;
 
 
   text-align: center;
 
 
 }
+
+
+.contact {}
 
 .contact h2 {
   font-size: 2rem;
@@ -596,9 +600,9 @@ footer p:nth-of-type(2) {
 
   .contact {
 
-   
+    background: url("../images/contact-page-background.jpg") no-repeat center center/cover;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
 
 
@@ -639,9 +643,9 @@ footer p:nth-of-type(2) {
 }
 
 
-/*Css for screens larger than 1200*/
+/*Css for screens larger than 992px*/
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
 
   /*Assuming user has a mouse */
 
