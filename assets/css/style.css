@@ -639,9 +639,9 @@ footer p:nth-of-type(2) {
 }
 
 
-/*Css for screens larger than 992px*/
+/*Css for screens larger than 1200*/
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1200px) {
 
   /*Assuming user has a mouse */
 
