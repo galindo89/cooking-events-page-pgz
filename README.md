@@ -180,12 +180,33 @@ To clone the repository:
 (Add details about feature testing here)
 
 ### Browser Compatibility
-(Add details about browser compatibility testing here)
+The project was tested in Chrome, Firefox, and Edge. No issues were found.
+
+The results of the testing are presented in the following table:
+
+| Browser tested | Intended appearance | Intended responsiveness | Comment         |
+|----------------|---------------------|-------------------------|-----------------|
+| Chrome         | Good                | Good                    | No issues found |
+| Firefox        | Good                | Good                    | No issues found |
+| Edge           | Good                | Good                    | No issues found |
+
 
 ### Responsiveness Testing
-(Add details about responsiveness testing here)
+The project was tested directly on 3 different screens:
+- Mobile: Google Pixel 7
+- Notebook: Microsoft Surface Notebook 2
+- Desktop monitor: 1920 x 1080 resolution
+
+| Device tested                      | Site responsiveness <= 767 px                                                         | Site responsiveness 768px <= x <= 991px                                                     | Site responsiveness x >= 992px                                                                                     |
+|------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Google Pixel 7                     | Good. All pages rendering content as expected and behaving as implemented              | N/A                                                                                         | N/A                                                                                                                |
+| iPad mini (over Chrome's developer console) | N/A                                                                                   | Good. All pages rendering content as expected and behaving as implemented                    | N/A                                                                                                                |
+| 1504 x 1003 Microsoft Surface Notebook screen | N/A                                                                                   | N/A                                                                                         | Good. All pages rendering content as expected and behaving as implemented                                            |
+| 1920 x 1080 desktop monitor        | N/A                                                                                   | N/A                                                                                         | Good. All pages rendering content as expected and behaving as implemented                                            |
+
 
 ### Code Validation
+
 #### HTML 
 HTML code validation was conducted using the [W3C Markup Validation Service](https://validator.w3.org/).
 
@@ -199,6 +220,13 @@ HTML code validation was conducted using the [W3C Markup Validation Service](htt
 | confirmation.html   | No error  | N/A | ![confirmation.html validation result](readme-docs/testing/code-validation-confirmation.JPG) |
 
 #### CSS
+CSS code was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator).
+
+
+| File      | Errors                                                                                                                    | Solutions applied?                                                                                      | Screenshot of clear validator output                                    |
+|-----------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| style.css | "Value Error: text-align wrap is not a text-align value: wrap<br>Parse Error /*Center the form in the contact section */ / .contact form { padding: 3rem; width: 60%; border-radius: 10px; }<br>Parse Error }" | Removing unnecessary "text-align variable" from selector<br>Removing unnecessary '/' character" | ![style.css validation result](readme-docs/testing/code-validation-style-css.JPG) |
+
 
 
 

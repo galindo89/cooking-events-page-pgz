@@ -159,7 +159,7 @@ main {
 }
 
 .hero {
-  background-image: url("../images/image-hero.webp");
+  background-image: url("../images/image-hero.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
@@ -356,6 +356,7 @@ form>h3 {
   box-shadow: 0 2px 4px #0000001a;
   height: 100%;
   margin-left: 0;
+  
   /* Align form to the left */
   flex: 1;
   margin-top: 40px;
@@ -608,7 +609,7 @@ footer p:nth-of-type(2) {
 
   /*Center the form in the contact section */
 
-  / .contact form {
+   .contact form {
     padding: 3rem;
     width: 60%;
     border-radius: 10px;
