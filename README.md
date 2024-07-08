@@ -38,6 +38,8 @@ A website for showcasing and organizing cooking events in Hamburg, Germany.
   - [Browser Compatibility](#browser-compatibility)
   - [Responsiveness Testing](#responsiveness-testing)
   - [Code Validation](#code-validation)
+    -[HTML](#HTML)
+    -[CSS](#CSS)
   - [Lighthouse Testing](#lighthouse-testing)
   - [Accessibility Testing](#accessibility-testing)
   - [Bugs Documentation](#bugs-documentation)
@@ -184,7 +186,21 @@ To clone the repository:
 (Add details about responsiveness testing here)
 
 ### Code Validation
-(Add details about code validation here)
+#### HTML 
+HTML code validation was conducted using the [W3C Markup Validation Service](https://validator.w3.org/).
+
+
+
+| Page Tested         | Errors                                                                                                                                           | Solutions applied?                                                                                                                      | Screenshot of clear validator output                                           |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| index.html          | "Error: The element button must not appear as a descendant of the a element.<br>Error: Stray end tag i.<br>Error: Stray end tag i.<br>Error: Stray end tag main." | "Remove the `<button>` elements from inside `<a>` tags. Replace them with styled `<a>` tags or modify the structure to avoid nesting `<button>` inside `<a>`. <br><br>Fix the stray end tag `<i>` and `<main>` issues by removing the extra closing tags." | ![index.html validation result](readme-docs/testing/code-validation-index-html-after-fix.JPG) |
+| gallery.html        | No error                                                                                                                                         | N/A                                                                                                                                     | ![gallery.html validation result](readme-docs/testing/code-validation-gallery.JPG) |
+| contact.html        | Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.                                           | Update the "for" attribute of the label   element                                                                                           | ![contact.html validation result](readme-docs/testing/code-validation-contact-after-fix.JPG) |
+| confirmation.html   | No error  | N/A | ![confirmation.html validation result](readme-docs/testing/code-validation-confirmation.JPG) |
+
+#### CSS
+
+
 
 ### Lighthouse Testing
 (Add details about Lighthouse testing here)
